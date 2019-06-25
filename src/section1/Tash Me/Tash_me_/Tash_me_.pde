@@ -1,5 +1,7 @@
 PImage mustache;
 PImage friend;
+int x;
+int y;
 void setup() {
   friend = loadImage("Friend.jpg");
   size(800, 600);
@@ -9,6 +11,10 @@ void setup() {
 
 void draw() {
   background(friend);
-  image(mustache, 500, 400);
-  if (mousePressed) mustache moves with mouse
+  image(mustache, x, y);
+  if(mousePressed){
+    image(mustache, mouseX, mouseY);
+    x = mouseX;
+    y =  mouseY;
+  }
 }
