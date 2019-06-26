@@ -14,9 +14,9 @@ public class Spiral {
 		// 4. Use a for loop to repeat steps #7 to #8, 75 times
 			for (int i = 0; i < 75; i++) {}
 			// 7. Change the pen color to random
-		hax.setRandomPenColor;
+	//	hax.setRandomPenColor;
 			// 6. Move the robot 5 times the loop counter (5*i)
-			5*75
+//			5*75
 			// 2. Turn the robot 360/7 degrees to the right
 		hax.turn(360/7);
 			// 8. Set the pen width to i
